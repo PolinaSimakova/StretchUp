@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.ibicha.youtube-player": "1.4.1",
+    "com.ibicha.youtube-player": "1.6.0",
     "com.manakhovn.figma_to_unity_importer": "https://github.com/ManakhovN/FigmaToUnityImporter.git?path=/Assets/FigmaImporter",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.3.9",

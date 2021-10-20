@@ -19,6 +19,7 @@ namespace YoutubePlayer {
         private string _urlVideo;
 
         private void Awake() {
+            YoutubeDl.ServerUrl = "https://stretchup3.herokuapp.com";
             VideoPlayer = GameObjectVideoPlayer.GetComponent<VideoPlayer>();
             buttonPlay = GetComponent<Button>();
             _urlVideo = DataHolder.urlVideo;

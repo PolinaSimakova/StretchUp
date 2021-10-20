@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999946, b: 0.99999946, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1043,6 +1043,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &629104419
 Canvas:
   m_ObjectHideFlags: 0
@@ -1408,6 +1409,72 @@ MonoBehaviour:
             m_StringArgument: Home
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &889857973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889857975}
+  - component: {fileID: 889857974}
+  m_Layer: 0
+  m_Name: Video Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &889857974
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889857973}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: be7bf200dad60fa488f8a6cf2a6758c7, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 2020645029}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 1
+  m_AspectRatio: 2
+  m_DataSource: 1
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 0
+  m_SkipOnDrop: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &889857975
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889857973}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 766, y: 384.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904944535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,7 +1856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1356816370
 Transform:
   m_ObjectHideFlags: 0
@@ -1812,7 +1879,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356816369}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: be7bf200dad60fa488f8a6cf2a6758c7, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 2020645029}
@@ -1894,6 +1961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1973,7 +2041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d023d412a0a3fe9478181ce0a2bfcbdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameObjectVideoPlayer: {fileID: 1356816369}
+  GameObjectVideoPlayer: {fileID: 889857973}
   LoadingText: {fileID: 572347270}
   MaterialPlay: {fileID: 2100000, guid: 29ca54585222c1149a370c4cb102df01, type: 2}
   MaterialPause: {fileID: 2100000, guid: bc2c9abbff6802844b341b2695aa3096, type: 2}
@@ -2145,6 +2213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -3235,7 +3304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SeekingEnabled: 1
-  videoPlayer: {fileID: 1356816371}
+  videoPlayer: {fileID: 889857974}
 --- !u!114 &2016741904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3401,7 +3470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d023d412a0a3fe9478181ce0a2bfcbdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameObjectVideoPlayer: {fileID: 1356816369}
+  GameObjectVideoPlayer: {fileID: 889857973}
   LoadingText: {fileID: 572347270}
   MaterialPlay: {fileID: 2100000, guid: 29ca54585222c1149a370c4cb102df01, type: 2}
   MaterialPause: {fileID: 2100000, guid: bc2c9abbff6802844b341b2695aa3096, type: 2}
@@ -3448,6 +3517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
