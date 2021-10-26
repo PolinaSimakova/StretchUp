@@ -5,19 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 12d93fe1b62f8e44c9a0dbe046c625fb
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Warm-up.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/Workouts.unity
     guid: 21294264f529d8c42b41e4dc617c5e74
   - enabled: 1
-    path: Assets/Scenes/Workout.unity
-    guid: 101f6822996cdaa4fbd40b9e96e1f733
-  - enabled: 0
-    path: Assets/Scenes/Test2.unity
-    guid: d5fa9603389bc8342b90e639b3a0afaa
+    path: Assets/Scenes/WorkoutNew.unity
+    guid: 14a258d158837794887340324b7e4cca
   m_configObjects: {}
