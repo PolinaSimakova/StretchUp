@@ -15,6 +15,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
 using YoutubeLight;
@@ -380,7 +381,9 @@ namespace LightShaft.Scripts
 
 
         private void Awake() {
-            youtubeUrl = DataHolder.urlVideo;
+            if (SceneManager.GetActiveScene().name != "Warm-upVideo") {
+                youtubeUrl = DataHolder.urlVideo;
+            }
             
             if (!loadYoutubeUrlsOnly)
             {
