@@ -156,9 +156,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -159, y: 52.000244}
-  m_SizeDelta: {x: 112, y: 105}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -166.5, y: -1}
+  m_SizeDelta: {x: 101, y: 104}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &310717975
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,9 +284,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 79.32, y: 33.999878}
-  m_SizeDelta: {x: 364.63013, y: 67}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 68.37299, y: 0}
+  m_SizeDelta: {x: 363.8971, y: 67}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518834695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ Canvas:
   m_GameObject: {fileID: 629104416}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 2020645029}
   m_PlaneDistance: 1000
   m_PixelPerfect: 0
@@ -571,8 +571,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -924,6 +924,11 @@ PrefabInstance:
       propertyPath: youtubeUrl
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2228946007855656701, guid: f2253547a45e1e348b003191599f21e4,
+        type: 3}
+      propertyPath: videoQuality
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2229237810665649107, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_Color.b
@@ -1016,13 +1021,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2267673628048139455, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267673628048139455, guid: f2253547a45e1e348b003191599f21e4,
+        type: 3}
       propertyPath: m_SizeDelta.x
-      value: 94.92
+      value: -53.08
       objectReference: {fileID: 0}
     - target: {fileID: 2267673628048139455, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 67.26
+      value: -6.73999
       objectReference: {fileID: 0}
     - target: {fileID: 2267673628048139455, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
@@ -1272,6 +1282,7 @@ GameObject:
   - component: {fileID: 1412299477}
   - component: {fileID: 1412299476}
   - component: {fileID: 1412299478}
+  - component: {fileID: 1412299479}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -1345,6 +1356,18 @@ MonoBehaviour:
   popUpWindow: {fileID: 0}
   popUpsWindow: []
   buttonForward: {fileID: 0}
+--- !u!114 &1412299479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412299475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4977a22568f290a4488de4087e16cdd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2020645027
 GameObject:
   m_ObjectHideFlags: 0

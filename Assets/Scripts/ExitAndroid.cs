@@ -11,6 +11,8 @@ public class ExitAndroid : MonoBehaviour {
                 //Debug.Log(SceneManager.GetActiveScene().name);
                 if (SceneManager.GetActiveScene().name == "Warm-upVideo") {
                     SceneManager.LoadScene("Warm-up"); // загружаете нужную сцену
+                }else if (SceneManager.GetActiveScene().name == "WorkoutNew") {
+                    SceneManager.LoadScene("Workouts"); // загружаете нужную сцену
                 }
             }
         }
