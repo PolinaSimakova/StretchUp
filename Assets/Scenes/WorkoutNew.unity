@@ -694,6 +694,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2010901043660025633, guid: f2253547a45e1e348b003191599f21e4,
+        type: 3}
+      propertyPath: m_AudioOutputMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2014756830168370127, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_RenderMode
@@ -777,7 +782,7 @@ PrefabInstance:
     - target: {fileID: 2046085808667485257, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -24.300049
+      value: -21.5
       objectReference: {fileID: 0}
     - target: {fileID: 2046211536486375811, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
@@ -812,12 +817,12 @@ PrefabInstance:
     - target: {fileID: 2046264772455286003, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -24.300049
+      value: -21.5
       objectReference: {fileID: 0}
     - target: {fileID: 2046348276052399711, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -24.300049
+      value: -21.5
       objectReference: {fileID: 0}
     - target: {fileID: 2046466468494598685, guid: f2253547a45e1e348b003191599f21e4,
         type: 3}
@@ -1380,6 +1385,7 @@ GameObject:
   - component: {fileID: 2020645029}
   - component: {fileID: 2020645031}
   - component: {fileID: 2020645028}
+  - component: {fileID: 2020645032}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1460,3 +1466,16 @@ Behaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020645027}
   m_Enabled: 1
+--- !u!114 &2020645032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020645027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5976ae79d5463c24c9fc7afaddde2879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelGO: {fileID: 310717975}
