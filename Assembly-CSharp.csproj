@@ -67,7 +67,6 @@
      <Compile Include="Assets\LightShaft\Scripts\YoutubeVideoController.cs" />
      <Compile Include="Assets\Scripts\WobblyText.cs" />
      <Compile Include="Assets\LightShaft\Scripts\CustomTools\DrawIfAttribute.cs" />
-     <Compile Include="Assets\Scripts\Test.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubeSettings.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoInfo.cs" />
