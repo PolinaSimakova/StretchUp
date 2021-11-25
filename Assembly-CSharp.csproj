@@ -61,6 +61,7 @@
      <Compile Include="Assets\LightShaft\YoutubeSrc\HTTPHelperYoutube.cs" />
      <Compile Include="Assets\Scripts\Email.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoRequest.cs" />
+     <Compile Include="Assets\Scripts\AdsManager.cs" />
      <Compile Include="Assets\Scripts\VideoPlayerProgress.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubePlayerLivestream.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoPlayerController.cs" />
@@ -125,7 +126,6 @@
      <Compile Include="Assets\LightShaft\Scripts\YoutubeLogo.cs" />
      <Compile Include="Assets\LightShaft\Scripts\DemoCustomPlayerScript.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\VideoProgressBar.cs" />
-     <Compile Include="Assets\Scripts\AdsManager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
