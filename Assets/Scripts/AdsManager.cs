@@ -14,7 +14,7 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
     }
 
     private void Awake() {
-        Appodeal.requestAndroidMPermissions(this);
+       // Appodeal.requestAndroidMPermissions(this);
     }
     private void Initialize(bool consentValue) {
        // Appodeal.setTesting(consentValue);
