@@ -22,19 +22,16 @@ public class LevelButton : MonoBehaviour {
 
     void Populate() {
         GameObject newCreateButton;
-        GameObject newCreateText;
         for (int i = 0; i < countDays; i++) {
             newCreateButton = Instantiate(prefabDayButton, transform);
             prefabDayButtonList.Add(prefabDayButton);
-            newCreateButton.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (i + 1) +  " День";
-           // Debug.Log(newCreateButton.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text);
+            newCreateButton.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = (i + 1) +  " день";
 
-            newCreateButton.GetComponent<ScenesLoading>()._urlVideo =
-                urlVideoList[i];
-
-            //newCreateButton.GetComponentInChildren<TextMeshPro>().text = (i + 1).ToString();
-            // text.text = (i + 1) +  " День";
-            //newCreateButton.text.GetComponent<Text>().text = (i + 1) +  " День";
+            newCreateButton.GetComponent<ScenesLoading>()._urlVideo = urlVideoList[i];
+            
+            //присвоение названия кнопки для главного текста
+            newCreateButton.GetComponent<ScenesLoading>()._textButton =
+                newCreateButton.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text;
         }
     }
     

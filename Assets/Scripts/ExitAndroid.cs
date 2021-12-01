@@ -5,19 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class ExitAndroid : MonoBehaviour {
     void Update() {
+        toExitFromAppOrScene();
+    }
+
+    private void toExitFromAppOrScene() {
         if (Application.platform == RuntimePlatform.Android ||
             Application.platform == RuntimePlatform.WindowsEditor) {
             if (Input.GetKeyDown(KeyCode.Escape)) {
                 if (SceneManager.GetActiveScene().name == "Warm-upVideo") {
                     SceneManager.LoadScene("Warm-up"); // загружаете нужную сцену
-                }else if (SceneManager.GetActiveScene().name == "WorkoutNew") {
+                }
+                else if (SceneManager.GetActiveScene().name == "WorkoutNew") {
                     SceneManager.LoadScene("Workouts"); // загружаете нужную сцену
-                }else if (SceneManager.GetActiveScene().name == "Home") {
-                    Application.Quit();
-                }else if (SceneManager.GetActiveScene().name == "Warm-up") {
-                    Application.Quit();
-                }else if (SceneManager.GetActiveScene().name == "Workouts") {
-                    Application.Quit();
+                }
+                else if (SceneManager.GetActiveScene().name == "Warm-up") {
+                    SceneManager.LoadScene("Home"); // загружаете нужную сцену
+                }
+                else if (SceneManager.GetActiveScene().name == "Workouts") {
+                    SceneManager.LoadScene("Home"); // загружаете нужную сцену
                 }
             }
         }

@@ -5,17 +5,6 @@ using UnityEngine;
 public class DataHolder : MonoBehaviour {
 
     public static string urlVideo;
-    //private static GameObject prefabName;
 
-    /*public static GameObject Prefab
-    {
-        get
-        {
-            return prefabName;
-        }
-        set
-        {
-            prefabName = value;
-        }
-    }*/
+    public static string textGeneral;
 }
