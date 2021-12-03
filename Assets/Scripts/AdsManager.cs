@@ -17,11 +17,11 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
        // Appodeal.requestAndroidMPermissions(this);
     }
     private void Initialize(bool consentValue) {
-       // Appodeal.setTesting(consentValue);
+        //Appodeal.setTesting(consentValue);
         Appodeal.muteVideosIfCallsMuted(true);
         Appodeal.disableLocationPermissionCheck();
         Appodeal.disableWriteExternalStoragePermissionCheck();
-        Appodeal.initialize(APP_KEY, Appodeal.INTERSTITIAL | Appodeal.NON_SKIPPABLE_VIDEO, consentValue);
+        Appodeal.initialize(APP_KEY, Appodeal.INTERSTITIAL, consentValue);
     }
 
     public void ShowInterstitial() {
