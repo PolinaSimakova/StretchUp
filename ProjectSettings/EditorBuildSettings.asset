@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorkoutNew.unity
     guid: 14a258d158837794887340324b7e4cca
+  - enabled: 1
+    path: Assets/Scenes/NewScene/Menu.unity
+    guid: 54bf19c0b7f821047a988bd0fff8cb76
+  - enabled: 1
+    path: Assets/Scenes/NewScene/MyPlane.unity
+    guid: e82a67e0cfd4cac48adbd093ff1f095f
+  - enabled: 1
+    path: Assets/Scenes/NewScene/Player.unity
+    guid: dae3dd4c81904a0478326356df68b213
   m_configObjects: {}

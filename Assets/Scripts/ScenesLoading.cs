@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +8,7 @@ public class ScenesLoading : MonoBehaviour {
     private Scene scene;
     public string _urlVideo;
     public string _textButton;
+
     public void ChangeScene(string _sceneName) {
         
         SceneManager.LoadScene(_sceneName);
@@ -19,5 +21,10 @@ public class ScenesLoading : MonoBehaviour {
     }
     public void Exit() {
         Application.Quit();
+    }
+
+    //для нового дизайна
+    public void toLoadPreviousScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

@@ -381,9 +381,9 @@ namespace LightShaft.Scripts
 
 
         private void Awake() {
-            if (SceneManager.GetActiveScene().name != "Warm-upVideo") {
+           // if (SceneManager.GetActiveScene().name != "Warm-upVideo") {
                 youtubeUrl = DataHolder.urlVideo;
-            }
+          //  }
             
             if (!loadYoutubeUrlsOnly)
             {

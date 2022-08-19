@@ -55,6 +55,7 @@
      <Compile Include="Assets\LightShaft\Scripts\SimpleJSON.cs" />
      <Compile Include="Assets\LightShaft\Scripts\CustomTools\PlayerPrefsX.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\ConsentManagerClientFactory.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\URL.cs" />
      <Compile Include="Assets\Appodeal\Api\Appodeal\Appodeal.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\LoadVideoTitleToText.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\iOS\AppodealObjCBridge.cs" />
@@ -64,6 +65,7 @@
      <Compile Include="Assets\LightShaft\Scripts\YoutubePlayerLivestream.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoPlayerController.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentInfoUpdateCallbacks.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\Filter.cs" />
      <Compile Include="Assets\LightShaft\Scripts\UnityPackages\JsonNetSample\JsonNetSample.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\Exceptions.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\PauseIcon.cs" />
@@ -99,6 +101,7 @@
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Dummy\Dummy.cs" />
      <Compile Include="Assets\Scripts\DataHolder.cs" />
      <Compile Include="Assets\Scripts\PopUp.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\Previews.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\AndroidConsentManagerClient.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\iOS\ConsentManagerObjCBridge.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentFormCallbacks.cs" />
@@ -122,6 +125,7 @@
      <Compile Include="Assets\LightShaft\Scripts\YoutubeLogo.cs" />
      <Compile Include="Assets\LightShaft\Scripts\DemoCustomPlayerScript.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\VideoProgressBar.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\Exit.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -364,7 +368,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
