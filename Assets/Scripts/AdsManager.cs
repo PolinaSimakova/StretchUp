@@ -10,7 +10,8 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
     private const string APP_KEY = "0a6e670b2ced047f6f0e51541ab3d2bc0851749f088e2ac2";
 
     private void Start() {
-        Initialize(true);
+        //Initialize(true);
+        ShowBanner(true);
     }
 
     private void Awake() {
@@ -31,6 +32,11 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
             if (Appodeal.isLoaded(Appodeal.INTERSTITIAL))
                 Appodeal.show(Appodeal.INTERSTITIAL);  
         }
+    }
+
+    public void ShowBanner(bool consentValue) { //для нового дизайна - выбрала банеры
+        Appodeal.initialize(APP_KEY, Appodeal.BANNER, consentValue);
+        Appodeal.show(Appodeal.BANNER_BOTTOM);
     }
 
     public void ShowNonSkippable() {
