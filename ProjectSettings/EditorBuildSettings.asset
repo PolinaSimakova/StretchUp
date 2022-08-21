@@ -5,27 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Home.unity
-    guid: 12d93fe1b62f8e44c9a0dbe046c625fb
-  - enabled: 0
-    path: Assets/Scenes/Warm-up.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Warm-upVideo.unity
-    guid: 568e401ec6febd34cbd80ddc6ceb83ce
-  - enabled: 0
-    path: Assets/Scenes/Workouts.unity
-    guid: 21294264f529d8c42b41e4dc617c5e74
-  - enabled: 0
-    path: Assets/Scenes/WorkoutNew.unity
-    guid: 14a258d158837794887340324b7e4cca
+  - enabled: 1
+    path: Assets/Scenes/NewScene/Workouts.unity
+    guid: d43997a1de377194a80bb388a0e275cf
   - enabled: 1
     path: Assets/Scenes/NewScene/Menu.unity
     guid: 54bf19c0b7f821047a988bd0fff8cb76
-  - enabled: 1
-    path: Assets/Scenes/NewScene/MyPlane.unity
-    guid: e82a67e0cfd4cac48adbd093ff1f095f
   - enabled: 1
     path: Assets/Scenes/NewScene/Player.unity
     guid: dae3dd4c81904a0478326356df68b213

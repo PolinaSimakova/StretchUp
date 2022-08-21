@@ -9,6 +9,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class Filter : MonoBehaviour {
     [SerializeField]private Previews previews;
+    private Vector2 previewsStartTransform; //начальные координаты previews
     List<GameObject> intialPreviewList;
     private int activePreviwCount = 0;
     
@@ -18,6 +19,7 @@ public class Filter : MonoBehaviour {
     [SerializeField] private GameObject searchFieldGameObject;
     
     private void Start() {
+        previewsStartTransform = previews.GetComponent<RectTransform>().position;
         intialPreviewList = previews.GetComponent<Previews>().listPreview;
     }
     
@@ -34,6 +36,7 @@ public class Filter : MonoBehaviour {
             }
         }
         previews.GetComponent<GridLayoutGroup>().constraintCount = activePreviwCount;
+        previews.transform.position = previewsStartTransform;
         activePreviwCount = 0;
     }
     public void setActiveSearchField() {
