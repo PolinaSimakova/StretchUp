@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using  AppodealAds.Unity.Api;
 using AppodealAds.Unity.Common;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGrantedListener{
@@ -37,7 +38,12 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
     public void ShowBanner(bool consentValue) { //для нового дизайна - выбрала банеры
         Appodeal.setTesting(consentValue);
         Appodeal.initialize(APP_KEY, Appodeal.BANNER, consentValue);
-        Appodeal.show(Appodeal.BANNER_BOTTOM);
+        if (SceneManager.GetActiveScene().name == "Player") {
+            Appodeal.show(Appodeal.BANNER_HORIZONTAL_SMART);
+        }
+        else {
+            Appodeal.show(Appodeal.BANNER_BOTTOM);
+        }
     }
 
     public void ShowNonSkippable() {

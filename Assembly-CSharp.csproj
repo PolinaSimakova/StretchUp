@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_7;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_7;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;DEVELOPMENT_BUILD</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -52,80 +52,81 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\LightShaft\Scripts\SimpleJSON.cs" />
      <Compile Include="Assets\LightShaft\Scripts\CustomTools\PlayerPrefsX.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\ConsentManagerClientFactory.cs" />
      <Compile Include="Assets\Scripts\NewScripts\URL.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\YoutubePlayerLivestream.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\VideoPlayerController.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentInfoUpdateCallbacks.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\UnityPackages\JsonNetSample\JsonNetSample.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\VideoController\PauseIcon.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealMrecCallbacks.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\YoutubeVideoController.cs" />
+     <Compile Include="Assets\Scripts\WobblyText.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AndroidAppodealClient.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealRewardedVideoCallbacks.cs" />
+     <Compile Include="Assets\Scripts\BackgroundCamera.cs" />
+     <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
+     <Compile Include="Assets\Appodeal\Common\Appodeal\IAppodealAdsClient.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\YoutubeSettings.cs" />
+     <Compile Include="Assets\Scripts\ActivationObject.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Dummy\DummyClient.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealBannerCallbacks.cs" />
+     <Compile Include="Assets\Scripts\TextGeneral.cs" />
+     <Compile Include="Assets\Appodeal\Common\ConsentManager\IConsentFormListener.cs" />
+     <Compile Include="Assets\Appodeal\Common\Appodeal\IBannerAdListener.cs" />
+     <Compile Include="Assets\Scripts\DataHolder.cs" />
+     <Compile Include="Assets\Scripts\PopUp.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\AndroidConsentManagerClient.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\iOS\ConsentManagerObjCBridge.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentFormCallbacks.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealInterstitialCallbacks.cs" />
+     <Compile Include="Assets\Scripts\ExitAndroid.cs" />
+     <Compile Include="Assets\Scripts\LevelButton.cs" />
+     <Compile Include="Assets\Appodeal\Demo\Scripts\AppodealDemo.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\CustomTools\SliderDrag.cs" />
+     <Compile Include="Assets\LightShaft\YoutubeSrc\MagicHands.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\YoutubeVideoEvents.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\Translation.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\SimpleJSON.cs" />
+     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\ConsentManagerClientFactory.cs" />
      <Compile Include="Assets\Appodeal\Api\Appodeal\Appodeal.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\LoadVideoTitleToText.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\iOS\AppodealObjCBridge.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\HTTPHelperYoutube.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoRequest.cs" />
      <Compile Include="Assets\Scripts\AdsManager.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\YoutubePlayerLivestream.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\VideoPlayerController.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentInfoUpdateCallbacks.cs" />
      <Compile Include="Assets\Scripts\NewScripts\Filter.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\UnityPackages\JsonNetSample\JsonNetSample.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\Exceptions.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\VideoController\PauseIcon.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealMrecCallbacks.cs" />
      <Compile Include="Assets\Appodeal\Common\Appodeal\IPermissionGrantedListener.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\YoutubeVideoController.cs" />
-     <Compile Include="Assets\Scripts\WobblyText.cs" />
      <Compile Include="Assets\LightShaft\Scripts\CustomTools\DrawIfAttribute.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AndroidAppodealClient.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealNonSkippableVideoCallbacks.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealRewardedVideoCallbacks.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\iOS\iOSConsentManagerClient.cs" />
-     <Compile Include="Assets\Scripts\BackgroundCamera.cs" />
-     <Compile Include="Assets\LightShaft\YoutubeSrc\Types.cs" />
      <Compile Include="Assets\Appodeal\Common\Appodeal\IInterstitialAdListener.cs" />
-     <Compile Include="Assets\Appodeal\Common\Appodeal\IAppodealAdsClient.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\YoutubeSettings.cs" />
      <Compile Include="Assets\LightShaft\YoutubeSrc\VideoInfo.cs" />
      <Compile Include="Assets\Scripts\ScenesLoading.cs" />
-     <Compile Include="Assets\Scripts\ActivationObject.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Dummy\DummyClient.cs" />
      <Compile Include="Assets\Appodeal\Api\ConsentManager\ConsentManager.cs" />
      <Compile Include="Assets\Appodeal\Common\Appodeal\IRewardedVideoAdListener.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealPermissionCallbacks.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealBannerCallbacks.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubePlayer.cs" />
-     <Compile Include="Assets\Scripts\TextGeneral.cs" />
      <Compile Include="Assets\LightShaft\Scripts\ReactingLights.cs" />
-     <Compile Include="Assets\Appodeal\Common\ConsentManager\IConsentFormListener.cs" />
-     <Compile Include="Assets\Appodeal\Common\Appodeal\IBannerAdListener.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\YT_RotateCamera.cs" />
      <Compile Include="Assets\Appodeal\Common\Appodeal\IMrecAdListener.cs" />
      <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Dummy\Dummy.cs" />
-     <Compile Include="Assets\Scripts\DataHolder.cs" />
-     <Compile Include="Assets\Scripts\PopUp.cs" />
+     <Compile Include="Assets\Scripts\NewScripts\Exit.cs" />
      <Compile Include="Assets\Scripts\NewScripts\Previews.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\AndroidConsentManagerClient.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\iOS\ConsentManagerObjCBridge.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\ConsentManager\Android\ConsentFormCallbacks.cs" />
-     <Compile Include="Assets\Appodeal\Platforms\Appodeal\Android\AppodealInterstitialCallbacks.cs" />
      <Compile Include="Assets\LightShaft\Scripts\UIExtensions.cs" />
      <Compile Include="Assets\Appodeal\Common\ConsentManager\IConsentInfoUpdateListener.cs" />
      <Compile Include="Assets\Appodeal\Common\Appodeal\INonSkippableVideoAdListener.cs" />
-     <Compile Include="Assets\Scripts\ExitAndroid.cs" />
-     <Compile Include="Assets\Scripts\LevelButton.cs" />
-     <Compile Include="Assets\Appodeal\Demo\Scripts\AppodealDemo.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubeSimplified.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\CustomTools\SliderDrag.cs" />
      <Compile Include="Assets\Scripts\ExitFromPopUp.cs" />
-     <Compile Include="Assets\LightShaft\YoutubeSrc\MagicHands.cs" />
      <Compile Include="Assets\Appodeal\Common\ConsentManager\IConsentManager.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubeDemoScript.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\YoutubeVideoEvents.cs" />
      <Compile Include="Assets\Scripts\VideoScale.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\iOS\AppodealAdsClient.cs" />
      <Compile Include="Assets\Appodeal\Platforms\Appodeal\AppodealAdsClientFactory.cs" />
      <Compile Include="Assets\LightShaft\Scripts\YoutubeLogo.cs" />
      <Compile Include="Assets\LightShaft\Scripts\DemoCustomPlayerScript.cs" />
      <Compile Include="Assets\LightShaft\Scripts\VideoController\VideoProgressBar.cs" />
-     <Compile Include="Assets\Scripts\NewScripts\Exit.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -721,17 +722,29 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Localization.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Localization.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="YoutubePlayer">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/YoutubePlayer.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.CacheServer">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Addressables">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Localization">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Localization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -745,8 +758,20 @@
  <Reference Include="FigmaToUnityImporter">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/FigmaToUnityImporter.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Addressables.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ResourceManager">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

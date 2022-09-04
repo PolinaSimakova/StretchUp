@@ -27,7 +27,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_7;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_7;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0;DEVELOPMENT_BUILD</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn></NoWarn>
@@ -53,29 +53,29 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Appodeal\Editor\Utils\AppodealPostProcess.cs" />
-     <Compile Include="Assets\Appodeal\Editor\NetworksManager\EditorCoroutines.cs" />
      <Compile Include="Assets\Appodeal\Editor\Utils\RemoveHelper.cs" />
      <Compile Include="Assets\Appodeal\Editor\InternalResources\AppodealSettings.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\VideoController\Editor\DrawIfPropertyDrawer.cs" />
      <Compile Include="Assets\Appodeal\Editor\NetworksManager\XmlUtilities.cs" />
-     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealUnityUtils.cs" />
      <Compile Include="Assets\Appodeal\Editor\NetworksManager\Data\AppodealUnityPlugin.cs" />
-     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealPreProcess.cs" />
-     <Compile Include="Assets\Appodeal\Editor\Checkers\PlayServicesChecker.cs" />
      <Compile Include="Assets\Appodeal\Editor\NetworksManager\AppodealAdapterManager.cs" />
      <Compile Include="Assets\Appodeal\Editor\Checkers\ManifestChecker.cs" />
      <Compile Include="Assets\Appodeal\Editor\Utils\iOSPostprocessUtils.cs" />
      <Compile Include="Assets\Appodeal\Editor\Checkers\MultidexActivator.cs" />
      <Compile Include="Assets\Appodeal\Editor\NetworksManager\AppodealDependencyUtils.cs" />
-     <Compile Include="Assets\Appodeal\Editor\NetworksManager\Data\NetworkDependency.cs" />
      <Compile Include="Assets\Appodeal\Editor\Utils\ArchitectureFilter.cs" />
-     <Compile Include="Assets\LightShaft\CustomScripts\Editor\InvertedSphere.cs" />
      <Compile Include="Assets\Appodeal\Editor\Checkers\CheckerWindow.cs" />
-     <Compile Include="Assets\LightShaft\Scripts\VideoController\Editor\YoutubeAddPlayerToSceneEditor.cs" />
      <Compile Include="Assets\Appodeal\Editor\Utils\AppodealAssetsPostProcess.cs" />
-     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealInternalSettings.cs" />
      <Compile Include="Assets\Appodeal\Editor\Utils\AppodealEditorSettings.cs" />
      <Compile Include="Assets\Appodeal\Editor\NetworksManager\EditorCoroutineExtensions.cs" />
+     <Compile Include="Assets\Appodeal\Editor\NetworksManager\EditorCoroutines.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\VideoController\Editor\DrawIfPropertyDrawer.cs" />
+     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealUnityUtils.cs" />
+     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealPreProcess.cs" />
+     <Compile Include="Assets\Appodeal\Editor\Checkers\PlayServicesChecker.cs" />
+     <Compile Include="Assets\Appodeal\Editor\NetworksManager\Data\NetworkDependency.cs" />
+     <Compile Include="Assets\LightShaft\CustomScripts\Editor\InvertedSphere.cs" />
+     <Compile Include="Assets\LightShaft\Scripts\VideoController\Editor\YoutubeAddPlayerToSceneEditor.cs" />
+     <Compile Include="Assets\Appodeal\Editor\Utils\AppodealInternalSettings.cs" />
      <Compile Include="Assets\Appodeal\Editor\Checkers\PlatformChecker.cs" />
      <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.166_manifest.txt" />
      <None Include="Assets\Appodeal\Editor\NetworkConfigs\OguryDependencies.xml" />
@@ -336,11 +336,11 @@
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Google.IOSResolver_v1.2.166">
- <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.166.dll</HintPath>
- </Reference>
  <Reference Include="Google.PackageManagerResolver_v1.2.166">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.166.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.166">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.166.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandlerImpl_v1.2.166">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.166.dll</HintPath>
@@ -714,17 +714,29 @@
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Localization.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Localization.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="YoutubePlayer">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/YoutubePlayer.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.CacheServer">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Addressables">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Localization">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Localization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -738,8 +750,20 @@
  <Reference Include="FigmaToUnityImporter">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/FigmaToUnityImporter.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Addressables.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ResourceManager">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+ <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/admin/Desktop/Stretching/Stretching/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
