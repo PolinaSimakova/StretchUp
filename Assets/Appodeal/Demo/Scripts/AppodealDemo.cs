@@ -300,7 +300,7 @@ namespace ConsentManager.ConsentManagerDemo.Scripts
 
         public void ShowMrecView()
         {
-            Appodeal.showMrecView(Screen.currentResolution.height / 3,
+            Appodeal.showMrecView(Screen.currentResolution.height - Screen.currentResolution.height / 10,
                 Appodeal.BANNER_HORIZONTAL_CENTER, "default");
         }
 
