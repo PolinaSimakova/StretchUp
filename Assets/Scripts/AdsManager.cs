@@ -39,7 +39,8 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
         Appodeal.setTesting(consentValue);
         Appodeal.initialize(APP_KEY, Appodeal.BANNER, consentValue);
         if (SceneManager.GetActiveScene().name == "Player") {
-            Appodeal.show(Appodeal.BANNER_HORIZONTAL_SMART);
+            var bannerPosition = GameObject.Find("Banner").transform.position;
+            Appodeal.showBannerView(-4,0,"default");
         }
         else {
             Appodeal.show(Appodeal.BANNER_BOTTOM);
