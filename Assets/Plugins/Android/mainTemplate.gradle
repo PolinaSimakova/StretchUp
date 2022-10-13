@@ -65,6 +65,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-basement:17.6.0' // Assets/Appodeal/Editor/NetworkConfigs/VungleDependencies.xml:8
     implementation 'com.ironsource.sdk:mediationsdk:7.1.8' // Assets/Appodeal/Editor/NetworkConfigs/IronSourceDependencies.xml:9
     implementation 'com.my.target:mytarget-sdk:5.13.3' // Assets/Appodeal/Editor/NetworkConfigs/MyTargetDependencies.xml:7
+	implementation 'com.my.tracker:mytracker-sdk:3.0.9'
     implementation 'com.smaato.android.sdk:smaato-sdk:21.6.3' // Assets/Appodeal/Editor/NetworkConfigs/SmaatoDependencies.xml:7
     implementation 'com.startapp:inapp-sdk:4.8.10' // Assets/Appodeal/Editor/NetworkConfigs/StartAppDependencies.xml:7
     implementation 'com.unity3d.ads:unity-ads:3.7.5' // Assets/Appodeal/Editor/NetworkConfigs/UnityDependencies.xml:7
