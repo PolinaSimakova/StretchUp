@@ -36,7 +36,7 @@ public class AdsManager : MonoBehaviour, IInterstitialAdListener, IPermissionGra
     }
 
     public void ShowBanner(bool consentValue) { //для нового дизайна - выбрала банеры
-        Appodeal.setTesting(consentValue);
+        //Appodeal.setTesting(consentValue);
         Appodeal.initialize(APP_KEY, Appodeal.BANNER, consentValue);
         if (SceneManager.GetActiveScene().name == "Player") {
             Appodeal.showBannerView(-4,10,"default");
