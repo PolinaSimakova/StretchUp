@@ -1,11 +1,12 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class Previews : MonoBehaviour
 {
@@ -25,19 +26,18 @@ public class Previews : MonoBehaviour
     }
 
     public void toInstantiatePreview() {
-        GameObject newCreatePreview;
         for (int i = 0; i < countPreview; i++) {
+            GameObject newCreatePreview;
             newCreatePreview = Instantiate(PREVIEW, transform);
-            listPreview.Add(newCreatePreview);
 
-           // lessonTitle = "Workout " + (i + 1);
             lessonTitle = (i+1).ToString();
-            translation = newCreatePreview.transform.GetChild(1).GetComponent<Translation>();
+            newCreatePreview.name = "Workout " + lessonTitle; //имя объекта
+            newCreatePreview.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = newCreatePreview.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text + lessonTitle; //текстовое поле объекта
+            listPreview.Add(newCreatePreview);
+            
+            translation = listPreview[i].transform.GetChild(1).GetComponent<TextMeshProUGUI>().GetComponent<Translation>();
             translation.numberWorkout = lessonTitle;
 
-            // newCreatePreview.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = lessonTitle;
-            newCreatePreview.name = "Workout " + lessonTitle;
-            
             listPreview[i].transform.GetChild(0).GetComponent<Image>().sprite = previewSourceImageList[i];
         }
     }
