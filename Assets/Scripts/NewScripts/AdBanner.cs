@@ -14,8 +14,8 @@ public class AdBanner : MonoBehaviour
     private void RequestBanner()
     {
 #if UNITY_ANDROID
-        string adUnitIdBannerTest = "ca-app-pub-3940256099942544/6300978111";
-      //  string adUnitIdBanner = "ca-app-pub-5684932031961846/8696513635";
+        //string adUnitIdBannerTest = "ca-app-pub-3940256099942544/6300978111";
+        string adUnitIdBanner = "ca-app-pub-5684932031961846/8696513635";
 #elif UNITY_IPHONE
             string adUnitIdBanner  = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -24,10 +24,10 @@ public class AdBanner : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Workouts") {
 
-            bannerView = new BannerView(adUnitIdBannerTest , AdSize.SmartBanner, AdPosition.Bottom);
+            bannerView = new BannerView(adUnitIdBanner , AdSize.SmartBanner, AdPosition.Bottom);
         } else if (SceneManager.GetActiveScene().name == "Player") {
 
-            bannerView = new BannerView(adUnitIdBannerTest ,  AdSize.Banner, AdPosition.TopLeft);
+            bannerView = new BannerView(adUnitIdBanner ,  AdSize.Banner, AdPosition.TopLeft);
         }
         AdRequest request = new AdRequest.Builder().Build();
 
